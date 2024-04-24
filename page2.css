@@ -1,0 +1,473 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.pageback{
+    background-color: #cccccc;
+}
+
+.page {
+    border: none;
+    background-color: #f8f8f8;
+    width: 75%;
+    height: 2860px;
+
+    border-bottom: solid 2px black;
+
+    margin: 0px 200px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    background-color: #424242;
+    height: 246px;
+    width: 100%;
+}
+
+.top-h {
+    background-color: #76c7c0;
+    height: 144px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.logo-h{
+    height: 66px;
+    width: 215px;
+}
+
+.logo-h:hover {
+    cursor: pointer;
+}
+
+.btn {
+    margin-right: 50px;
+    display: flex;
+    justify-content: left;
+    font-weight: bolder;
+}
+
+.btn-h{
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+
+    margin-top: -40px;
+    margin-right: 20px;
+}
+
+.btn-h:hover {
+    cursor: pointer;
+}
+
+.bottom-h {
+    margin-top: -102px;
+    margin-left: 3%;
+}
+
+.btm-menu {
+
+    color: white;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    text-decoration: none;
+
+    list-style-type: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.st-click{
+    color: white;
+    height: 51px;
+    width: 116px;
+
+    margin-right: 38%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    text-decoration: none;
+
+    list-style-type: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.btm-menu-2 {
+    color: white;
+    margin-right: 38%;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    list-style-type: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.h:hover,
+.st:hover,
+.ra:hover,
+.aae:hover,
+.bnds:hover,
+.mc:hover,
+.bl:hover,
+.pmc:hover,
+.nndg:hover {
+    background-color: rgba(167, 167, 167, 0.751);
+
+}
+
+.h {
+    height: 51px;
+    width: 87px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.st {
+    height: 51px;
+    width: 116px;
+    text-decoration: none;
+}
+
+.ra {
+    height: 51px;
+    width: 188px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.aae {
+    height: 51px;
+    width: 143px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bnds {
+    height: 51px;
+    width: 149px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mc {
+    height: 51px;
+    width: 201px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bl {
+    height: 51px;
+    width: 163px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.pmc {
+    height: 51px;
+    width: 228px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nndg {
+    height: 51px;
+    width: 147px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.long{
+    height: 1950px;
+    width: 90%;
+
+    margin-top: 50px;
+    margin-left: 53px;
+
+    border-top: solid 1px white;
+    background-color: #ffffff;
+
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.line1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-bottom: 3%;
+}
+
+hr{
+    opacity: 20%;
+    padding: 0px 10px;
+}
+
+.none{
+    opacity: 40%;
+    color: #949494;
+    
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+
+    font-size: 13px;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cont2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    height: 83px;
+    width: 300px;
+    margin-top: 100px;
+
+    border-top: solid 1px black;
+    background-color: #76c7c0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.midlogo{
+    height: 70px;
+    width: 200px;
+}
+
+.big-img{
+    margin-top: 20px;
+    background-image: url(./images/The-Power-of-Gratitude-in-Love.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 95%;
+}
+
+p{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 2%;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    color: #5f5f5f;
+}
+
+.line1-1{
+    color: #5f5f5f;
+    margin-left: 2.5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    font-weight: lighter;  
+}
+
+.click-shadi{
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+.click-bl{
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+.line2{
+    color: #3a3a3a;
+
+    margin-top: 5%;
+    margin-left: 4.5%;
+    margin-bottom: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.response {
+    border: none;
+    background-color: #f8f8f8;
+    width: 90%;
+    height: 160px;
+    margin: 0px 5%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.resp{
+    justify-content: center;
+    align-items: center;
+    
+    padding-top: 0.1px;
+}
+
+.resp-h{
+    margin-top: 1%;
+    padding-top: 0.1%;
+
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+    margin-left: 1%;
+    margin-top: 30px;
+}
+
+.resp1{
+    font-family: sans-serif;
+    font-size: 13px;;
+    color: #21759b;
+}
+
+.resp2{
+    font-size: 12px;
+    font-weight: lighter;
+    color: #21759b;
+}
+
+.resp-l{
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 13px;
+
+    margin-left: 1%;
+    margin-top: 30px;
+}
+
+.resp1:hover, .resp2:hover{
+    cursor: pointer;
+    color: crimson;
+}
+
+.comment {
+    border: none;
+    background-color: #f8f8f8;
+    width: 90%;
+    height: 75px;
+    margin: 0% 5%;
+    margin-top: 7%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.comm{
+    padding-top: 2%;
+}
+
+.comm-l{
+    font-family: sans-serif;
+    font-size: 25px;
+    
+    text-align: center;
+    color: #949494;
+    font-weight: lighter;
+}
+
+.suggetion {
+    border: none;
+    background-color: #f8f8f8;
+    width: 90%;
+    height: 50px;
+    margin: 2% 5%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.sugg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 2%;
+}
+
+h3{
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    color: #21759b;
+}
+
+h3:hover{
+    cursor: pointer;
+    color: crimson;
+}
+
+.footer {
+    background-color: #111111;
+    width: 100%;
+    height: 62px;
+}
+
+.ft{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2% 2%;
+}
+
+h4{
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+    color: #cccccc;
+}
+
+.click-ft{
+    color: #21759b;
+    text-decoration: none;
+}
+
+.click-ft:hover{
+    cursor: pointer;
+    color: crimson;
+}
